@@ -5,10 +5,53 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="static/images/favicon/favicon.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="header.css">
   <title>Cake Store</title>
 </head>
 <body>
+  <div class="header">
+    <div class="left-header">
+      <img src="./static/images/logo.svg" alt="logo" class="logo">
+      <ul id="nav" class="navbar open">
+        <li>Home</li>
+        <li>About</li>
+        <li>Store</li>
+      </ul>
+    </div>
+    <div class="right-header">
+      <div class="phone-number">
+        <i class="fas fa-phone"></i>
+        <span>+ 123 456 789</span>
+      </div>
+      <div class="cart">
+        <i class="fas fa-shopping-cart"></i>
+        <span> 2 Items - $10.49</span>
+      </div>
+      <div id="toggleButton" class="toggle-nav-btn open" onclick="onClickToggle()">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
+  </div>
+  <div class="welcome-section">
+    <div class="text">
+      <span>Welcome To</span>
+      <span>Grandma's</span>
+    </div>
+    <div class="explore-btn">Explore</div>
+  </div>
+  <div class="about-us-section">
+    <div class="left-about">
+      <h1 class="heading">About <strong>Us</strong></h1>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquam voluptas beatae vitae expedita consectetur nesciunt quia deserunt asperiores facere fuga dicta fugiat corrupti et omnis porro at dolorum! Ad!</span>
+      <div class="explore-btn">Explore</div>
+    </div>
+    <div class="right-about">
+      <div><img src="./static/images/sweets-1.jpeg" alt="cake1"></div>
+    </div>
+  </div>
   
 
   <script src="cakes.js"></script>
