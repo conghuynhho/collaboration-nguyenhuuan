@@ -71,28 +71,28 @@
         </div>
         <div class="row ">
           <div class="col l-2 l-o-2"> 
-            <a href="" class="btn-store">
+            <a href="" class="btn-store" data-item="all">
               all
             </a>
           </div>  
           <div class="col l-2"> 
-            <a href="" class="btn-store">
-              all
+            <a href="" class="btn-store" data-item="cakes">
+              Cakes
             </a>
           </div>  
           <div class="col l-2"> 
-            <a href="" class="btn-store">
-              all
+            <a href="" class="btn-store" data-item="cupcakes">
+              CUPCAKES
             </a>
           </div>  
           <div class="col l-2"> 
-            <a href="" class="btn-store">
-              all
+            <a href="" class="btn-store" data-item="sweets">
+              sweets
             </a>
           </div>
           <div class="col l-2"> 
-            <a href="" class="btn-store">
-              all
+            <a href="" class="btn-store" data-item="doughnuts">
+              doughnuts
             </a>
           </div>   
         </div>
@@ -104,13 +104,29 @@
                   <i class="fas fa-search"></i>
                 </span>
               </div>
-              <input type="text" class="form-control" placeholder="item...">
+              <input id="searchBox" type="text" class="form-control" placeholder="item...">
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col l-4">
-            <div class="card">
+            <div class="card cupcakes">
+              <div class="img-container">
+                <img src="https://js-beginners.github.io/filter-project/img/cupcake-1.jpeg" alt="">
+                <span class="store-item-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <div class="card-text">
+                  <h5 class="store-item-name">cupcake item</h5>
+                  <h5 class="store-item-value">$ 5</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col l-4">
+            <div class="card sweets">
               <div class="img-container">
                 <img src="https://js-beginners.github.io/filter-project/img/cupcake-1.jpeg" alt="">
                 <span class="store-item-icon">
@@ -126,7 +142,7 @@
             </div>
           </div>
           <div class="col l-4">
-            <div class="card">
+            <div class="card doughnuts">
               <div class="img-container">
                 <img src="https://js-beginners.github.io/filter-project/img/cupcake-1.jpeg" alt="">
                 <span class="store-item-icon">
@@ -135,14 +151,14 @@
               </div>
               <div class="card-body">
                 <div class="card-text">
-                  <h5 class="store-item-name">sweet item</h5>
+                  <h5 class="store-item-name">doughnuts item</h5>
                   <h5 class="store-item-value">$ 5</h5>
                 </div>
               </div>
             </div>
           </div>
           <div class="col l-4">
-            <div class="card">
+            <div class="card doughnuts">
               <div class="img-container">
                 <img src="https://js-beginners.github.io/filter-project/img/cupcake-1.jpeg" alt="">
                 <span class="store-item-icon">
@@ -151,14 +167,14 @@
               </div>
               <div class="card-body">
                 <div class="card-text">
-                  <h5 class="store-item-name">sweet item</h5>
+                  <h5 class="store-item-name">doughnuts item</h5>
                   <h5 class="store-item-value">$ 5</h5>
                 </div>
               </div>
             </div>
           </div>
           <div class="col l-4">
-            <div class="card">
+            <div class="card cakes">
               <div class="img-container">
                 <img src="https://js-beginners.github.io/filter-project/img/cupcake-1.jpeg" alt="">
                 <span class="store-item-icon">
@@ -167,14 +183,14 @@
               </div>
               <div class="card-body">
                 <div class="card-text">
-                  <h5 class="store-item-name">sweet item</h5>
+                  <h5 class="store-item-name">cake item</h5>
                   <h5 class="store-item-value">$ 5</h5>
                 </div>
               </div>
             </div>
           </div>
           <div class="col l-4">
-            <div class="card">
+            <div class="card cakes">
               <div class="img-container">
                 <img src="https://js-beginners.github.io/filter-project/img/cupcake-1.jpeg" alt="">
                 <span class="store-item-icon">
@@ -183,14 +199,14 @@
               </div>
               <div class="card-body">
                 <div class="card-text">
-                  <h5 class="store-item-name">sweet item</h5>
+                  <h5 class="store-item-name">cake item</h5>
                   <h5 class="store-item-value">$ 5</h5>
                 </div>
               </div>
             </div>
           </div>
           <div class="col l-4">
-            <div class="card">
+            <div class="card cupcakes">
               <div class="img-container">
                 <img src="https://js-beginners.github.io/filter-project/img/cupcake-1.jpeg" alt="">
                 <span class="store-item-icon">
@@ -199,14 +215,14 @@
               </div>
               <div class="card-body">
                 <div class="card-text">
-                  <h5 class="store-item-name">sweet item</h5>
+                  <h5 class="store-item-name">cupcake item</h5>
                   <h5 class="store-item-value">$ 5</h5>
                 </div>
               </div>
             </div>
           </div>
           <div class="col l-4">
-            <div class="card">
+            <div class="card cupcakes">
               <div class="img-container">
                 <img src="https://js-beginners.github.io/filter-project/img/cupcake-1.jpeg" alt="">
                 <span class="store-item-icon">
@@ -215,30 +231,14 @@
               </div>
               <div class="card-body">
                 <div class="card-text">
-                  <h5 class="store-item-name">sweet item</h5>
+                  <h5 class="store-item-name">cupcake item</h5>
                   <h5 class="store-item-value">$ 5</h5>
                 </div>
               </div>
             </div>
           </div>
           <div class="col l-4">
-            <div class="card">
-              <div class="img-container">
-                <img src="https://js-beginners.github.io/filter-project/img/cupcake-1.jpeg" alt="">
-                <span class="store-item-icon">
-                  <i class="fas fa-shopping-cart"></i>
-                </span>
-              </div>
-              <div class="card-body">
-                <div class="card-text">
-                  <h5 class="store-item-name">sweet item</h5>
-                  <h5 class="store-item-value">$ 5</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col l-4">
-            <div class="card">
+            <div class="card sweets">
               <div class="img-container">
                 <img src="https://js-beginners.github.io/filter-project/img/cupcake-1.jpeg" alt="">
                 <span class="store-item-icon">
