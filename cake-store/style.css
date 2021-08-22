@@ -13,5 +13,103 @@
 body{
   font-family: 'Kaushan Script',sans-serif;
 }
+/* our store */
+h1.text-capitalize {
+  text-align: center;
+}
+.container {
+  padding: 48px 0px;
+  margin: 0 189px;
+}
+.text-capitalize{
+  font-size: 3.5rem;
+  margin-bottom: 8px;
+}
+.banner-title {
+  color: palevioletred;
+  font-size: 4rem;
+}
+.btn-store-margin{
+  margin: 0 180px;
+}
+.btn-store{
+  text-decoration: none;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  padding:  0 10px;
+  border-radius: .25rem;
+}
+.btn-store:hover{
+  color: palevioletred;
+  background-color: #000;
+}
+.input-group {
+  display: flex;
+  margin-top: 20px;
+  border-radius: 2px;
+}
+.input-group-prepend {
+  padding: 8px 10px;
+  background: pink;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+input.form-control {
+    flex: 25;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    padding: 10px;
+}
+.card{
+  margin-top: 30px;
+  background: whitesmoke;
+}
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+.img-container:hover img{
+  transform: scale(1.2);
+}
+.img-container img{
+  width: 100%;
+  transition: all 1s ease-in-out;
+}
+.store{
+   background: rgb(238, 238, 238);
+}
+span.store-item-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.75rem;
+  background: yellow;
+  border-top-left-radius: 1rem;
+  transition: all 1s ease-in-out;
+  transform: translate(100%, 100%);
+}
+.img-container:hover .store-item-icon{
+  transform: translate(0,0);
+}
+.card-body {
+  width: 100%;
+  padding: 20px;
+}
+.card-text {
+  display: flex;
+  /* display: inline-block; */
+  justify-content: space-between;
+  /* font-size: 1.25rem; */
+  font-size: 30px;
+  line-height: 1.2;
+}
+h5.store-item-name {
+  font-weight: 300;
+}
 
 
