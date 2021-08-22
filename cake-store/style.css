@@ -3,7 +3,6 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-
 *{
   margin:0;
   padding:0;
@@ -11,6 +10,7 @@
 }
 
 body{
+  width: 100%;
   font-family: 'Kaushan Script',sans-serif;
 }
 /* our store */
@@ -111,5 +111,4 @@ span.store-item-icon {
 h5.store-item-name {
   font-weight: 300;
 }
-
 
