@@ -1,0 +1,239 @@
+/* tablet $ mobile */
+@media (max-width:63.9375em){
+    .overlay{
+        display: none;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0,0,0,0.3);
+        animation: FadeIn linear 0.5s;
+    }
+    .boxBot-pc{
+        display: none;
+    }
+    .hotline{
+        color: #333;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    @keyframes FadeIn{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    .checkbox-mobile:checked ~ .overlay{
+        font-size: 20px;
+        display: block;
+    }
+    .menu_mobile{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 300;
+        width: 370px;
+        max-width: 100%;
+        background-color: #fff;
+        transform: translateX(-100%);
+        opacity: 0;
+        transition: all linear 0.5s ;
+    }
+    .checkbox-mobile:checked ~ .menu_mobile{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    .mmMenu {
+        padding: 10px 15px;
+        position: relative;
+    }
+     .mmMenu  a{
+        padding: 10px 0;
+        padding-right: 30px;
+        font-size: 14px;
+        line-height: 22px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #333;
+        text-decoration: none;
+    }
+    .mmMenu li{
+        padding: 10px;
+    }
+    .m-sub {
+        display: inherit;
+        display: inline-block;
+        width: 100%;
+    }
+    .button-submenu {
+        float: right;
+    }
+    ul.n-sub {
+        list-style: none;
+        transition: max-height 0.3s linear;
+        max-height: 0px;
+        overflow: hidden;
+    }
+    .n-sub > li >a{
+        display: block;
+       padding: 0;
+        color: #333333;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Red Rose';
+
+    }
+    ul.n-sub li{
+    }
+    ul.mmMain {
+        list-style: none;
+    }
+    .close-mmenu {
+        top: 0;
+        right: 0;
+        position: absolute;
+        padding: 10px;
+    }
+    ul {
+        list-style: none;
+    }
+    i.fas.fa-times {
+    top: 0;
+    right: 0;
+    font-size: 35px;
+    }
+    .header{
+        height: 55px;
+    }
+    .nav--search-img {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
+    .icon-menu{
+        display: block;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        margin-bottom: 15px;
+        margin-right: 10px;
+    }
+    span.txt.menu {
+        background: none;
+        color: #333;
+        font-size: 7px;
+        padding: 0;
+        margin-left: 3px;
+    }
+    span.style_icon.style_icon-menu {
+        width: 30px;
+        height: 25px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    i.fas.fa-bars {
+    font-size: 30px;
+     }
+    .header__nav{
+        padding: 0 10px;
+    }
+    .nav--search {
+        padding: 5px 0;
+        height: 100%;
+        width: 100%;
+    }
+    .nav--search-search {
+        display: none;
+    }
+    .nav--search-img img{
+        height: 40px;
+    }
+    .boxmain{
+        padding: 15px 10px;
+    }
+    .nav--sub{
+        display: none;
+    }
+    .title h1 {
+        font-size: 25px;
+    }
+
+    .icon img{
+        width: 40px;
+        height: 40px;
+    }
+    .txt
+    {
+        font-size: 12px;
+    }
+    .nav--search-res{
+        width: auto;
+    }
+    .search-header {
+        text-align: center;
+        cursor: pointer;
+        width: auto;
+        padding: 0 10px;
+    }
+    span.name {
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .itemprosm {
+        overflow: hidden;
+        margin: 0;
+    }
+    .wrapper {
+        padding: 0 10px;
+    }
+    .mobile-img{
+        display: block;
+    }
+    .pc-img{
+        display: none;
+    }
+}
+/* Tablet */
+@media (min-width:46.25em) and (max-width:63.9375em){
+}
+/* Mobile */
+@media (max-width: 46.1875em){
+    .nav--search-img img {
+        height: 30px;
+    }
+    i.fas.fa-bars {
+        font-size: 20px;
+    }
+    span.txt.menu {
+        margin-left: 0px;
+        margin-top: 2px;
+    }
+    span.name {
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .boxmain {
+        padding: 0;
+    }
+}
+/* pc */
+@media (min-width: 1024px){
+   .itemprosm{
+    max-width: 621px;
+    max-height: 745px;
+   }
+    .search-mobile{
+        display: none;
+    }
+    .menu_mobile{
+        display: none;
+    }
+    .box-mobile{
+        display: none;
+    }
+}
