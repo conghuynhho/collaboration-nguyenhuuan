@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/reponsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <div class="main">
+        <!-- header -->
+        <div class="header">
+            <!-- nav--pc -->
+            <div class="header__nav">
+                <div class="nav--search">
+                    <div class="nav--search-img">
+                        <!-- nav mobile --> 
+                        <label for="nav--mobile" class="icon-menu">
+                            <div for class="style_icon style_icon-menu">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                            <span class="txt menu">MENU</span>
+                        </label>
+                        <img src="https://j-p.vn/vnt_upload/weblink/logo.png" alt="">
+                    </div>
+                    <div class="nav--search-search">
+                        <input type="text" name="" id="searchInput">
+                        <button>
+                            <span>
+                                <i class="fas fa-search "></i>
+                            </span>
+                            <span>
+                                TÌM KIẾM
+                            </span>
+                        </button>
+                    </div> 
+                    <div class="nav--search-res">
+                        <div class="search-header search-mobile">
+                            <span>
+                                <i class="fas fa-search fas-icon"></i>
+                            </span>
+                            <span class="name">
+                                TÌM KIẾM
+                            </span>
+                        </div>
+                        <div class="search-header">
+                            <span>
+                                <i class="fas fa-user fas-icon"></i>
+                            </span>
+                            <span class="name">
+                                TÀI KHOẢN
+                            </span>
+                        </div>
+                        <div class="search-header">
+                            <span>
+                                <i class="fas fa-map-pin fas-icon"></i>
+                            </span>
+                            <span class="name">
+                                CỬA HÀNG
+                            </span>
+                        </div>
+                        <div class="search-header">
+                            <span>
+                                <i class="far fa-caret-square-up fas-icon"></i>
+                            </span>
+                            <span class="name">
+                                GIỎ HÀNG
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- subnav -->
+                <div class="nav--sub">
+                    <ul class="nav__list">
+                        <li class="list-items list-hover-menu">
+                            <a href="#">Menu</a>
+                            <div class="sub--list">
+                               <div class="grid">
+                                   <div class="row">
+                                       <div class="col l-8">
+                                           <div class="row">
+                                               <div class="col l-3">
+                                                   <div class="namesub">
+                                                       <a href="">NEW ARRIVALS</a>
+                                                   </div>   
+                                               </div>
+                                               <div class="col l-3">
+                                                   <div class="namesub">
+                                                       <a href="">SẢN PHẨM</a>
+                                                   </div> 
+                                                   <div class="contlink">
+                                                       <ul>
+                                                           <li><a href="">Áo Thun</a></li>
+                                                           <li><a href="">Áo Khoác</a></li>
+                                                           <li><a href="">Quần Shorts</a></li>
+                                                           <li><a href="">Quần Jeans</a></li>
+                                                           <li><a href="">Quần Culottes</a></li>
+                                                           <li><a href="">Quần Kaki - Quần Tây</a></li>
+                                                           <li><a href="">Đầm</a></li>
+                                                           <li><a href="">Jumpsuit</a></li>
+                                                           <li><a href="">Váy</a></li>
+                                                           <li><a href="">Đồ Mặc Nhà</a></li>
+                                                       </ul>
+                                                   </div>  
+                                               </div>
+                                               <div class="col l-3">
+                                                   <div class="namesub">
+                                                       <a href="">GIÁ ĐẶC BIỆT</a>
+                                                   </div>
+                                                   <div class="contlink">
+                                                       <ul>
+                                                           <li><a href="">Combo Siêu Tiết Kiệm 250K</a></li>
+                                                           <li><a href="">Siêu Sale Up To 80%</a></li>
+                                                       </ul>
+                                                   </div> 
+                                               </div>
+                                               <div class="col l-3">
+                                                   <div class="namesub">
+                                                       <a href="">PHỤ KIỆN</a>
+                                                   </div>
+                                                   <div class="contlink">
+                                                       <ul>
+                                                           <li><a href="">Balo</a></li>
+                                                           <li><a href="">Túi Xách</a></li>
+                                                           <li><a href="">Giày</a></li>
+                                                           <li><a href="">Dây Nịt</a></li>
+                                                           <li><a href="">Nón</a></li>
+                                                           <li><a href="">Phụ Kiện Khác</a></li>
+                                                       </ul>
+                                                   </div>  
+                                               </div>
+                                           </div>
+                                       </div>
+                                       <div class="col l-4">
+                                        </div>
+                                   </div>
+                               </div>
+                            </div>
+                        </li>
+                        <li class="list-items list-special">
+                            <a href="#">Giá đặc biệt</a>
+                            <ul >
+                                <li><a href="">Combo Siêu Tiết Kiệm 250K</a></li>
+                                <li><a href="">Siêu Sale Up To 80%</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-items list-special">
+                            <a href="#">Tin tức</a>
+                            <ul >
+                                <li><a href="">Tin tức J-P Fashion</a></li>
+                                <li><a href="">Mẹo hay</a></li>
+                                <li><a href="">Beauty & Fashion</a></li>
+                            </ul>
+                        </li>
+                        <li class="list-items"><a href="#">Thẻ thành viên</a></li>
+                        <li class="list-items"><a href="#">Tuyển dụng</a></li>
+                        <li class="list-items"><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- checkbox -->
+            <input hidden type="checkbox" name="" id="nav--mobile" class="checkbox-mobile"> 
+            <!-- overlay -->
+            <label for="nav--mobile" class="overlay">
+            </label>
+            <!-- nav--mobile -->
+            <div class="menu_mobile">
+                <div class="mmMenu">
+                   <ul class="mmMain">
+                       <li><a href="">NEW ARRIVALS</a></li>
+                       <li>
+                           <div class="m-sub">
+                               <a href="">SẢN PHẨM</a>
+                               <label for="checkbox-button" class="button-submenu">
+                                <i class="fas fa-chevron-down"></i>
+                               </label>
+                           </div>
+                            <!-- check-button -->
+                            <input hidden type="checkbox" name="" id="checkbox-button" class="check-btn">
+                           <ul  class="n-sub">
+                               <li><a href="">Áo Thun</a></li>
+                               <li><a href="">Áo Sơ Mi</a></li>
+                               <li><a href="">Áo Len - Dệt Kim</a></li>
+                               <li><a href="">Áo Khoác</a></li>
+                               <li><a href="">Quần Shorts</a></li>
+                               <li><a href="">Quần Jeans</a></li>
+                               <li><a href="">Quần Culottes</a></li>
+                               <li><a href="">Quần Kaki - Quần Tây</a></li>
+                               <li><a href="">Đầm</a></li>
+                               <li><a href="">Jumpsuit</a></li>
+                               <li><a href="">Váy</a></li>
+                               <li><a href="">Đồ Mặc Nhà</a></li>
+                           </ul>
+                        </li>
+                       <li>
+                           <div class="m-sub">
+                               <a href="">GIÁ ĐẶC BIỆT</a>
+                               <label for="checkbox-button-two" class="button-submenu">
+                                <i class="fas fa-chevron-down"></i>
+                               </label>
+                           </div>
+                            <!-- check-button -->
+                            <input hidden type="checkbox" name="" id="checkbox-button-two" class="check-btn-two">
+                           <ul class="n-sub">
+                               <li><a href="">Combo Siêu Tiết Kiệm 250K</a></li>
+                               <li><a href="">Siêu Sale Up To 80%</a></li>
+                           </ul>
+                        </li>
+                       <li>
+                           <div class="m-sub">
+                               <a href="">PHỤ KIỆN</a>
+                               <label for="checkbox-button-three" class="button-submenu">
+                                <i class="fas fa-chevron-down"></i>
+                               </label>
+                           </div>
+                            <!-- check-button -->
+                            <input hidden type="checkbox" name="" id="checkbox-button-three" class="check-btn-three">
+                           <ul class="n-sub">
+                               <li><a href="">Balo</a></li>
+                               <li><a href="">Túi Xách</a></li>
+                               <li><a href="">Giày</a></li>
+                               <li><a href="">Dây Nịt</a></li>
+                               <li><a href="">Nón</a></li>
+                               <li><a href="">Phụ Kiện Khác</a></li>
+                           </ul>
+                        </li>
+                       <li><a href="">TUYỂN DỤNG</a></li>
+                       <li>
+                           <a href="">THÔNG TIN</a>
+                           <ul>
+                               <li><a href="">Giới thiệu</a></li>
+                               <li><a href="">Hướng dẫn mua hàng</a></li>
+                           </ul>
+                        </li>
+                       <li><a href="">Tin tức</a></li>
+                       <li><a href="">Liên hệ</a></li>
+                       <li><a href="">Phương thức thanh toán</a></li>
+                   </ul>
+                </div>
+                <label for="nav--mobile" class="close-mmenu">
+                    <div class="faXclose">
+                        <i class="fas fa-times"></i>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-- container -->
+        <div class="container">           
+            <div class="boxhome">
+                <div class="boxhome-img">
+                    <img src="https://j-p.vn/vnt_upload/weblink/COVER_WEB_0806_B2-2.jpg" alt="" class="pc-img">
+                    <!-- img tablet and mobile -->
+                    <img src="https://j-p.vn/vnt_upload/weblink/COVER_DT_0806-2.jpg" alt="" class="mobile-img">
+                </div>
+            </div>
+            <div class="boxmain">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-10 l-o-1 m-10 m-o-1 c-12">
+                            <div class="title">
+                                <h1>HÌNH THỨC GIAO HÀNG</h1>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col l-2 l-o-2 m-3 c-6">
+                            <div class="itempayhome">
+                                    <span class="icon">
+                                        <img src="https://j-p.vn/vnt_upload/weblink/WEB_0604-03.svg" alt="">
+                                    </span>
+                                    <span class="txt">ĐƯỢC KIỂM TRA HÀNG</span>     
+                            </div>
+                        </div>
+                        <div class="col l-2 m-3 c-6">
+                            <div class="itempayhome">
+                            
+                                    <span class="icon">
+                                        <img src="https://j-p.vn/vnt_upload/weblink/WEB_1404-01.svg" alt="">
+                                    </span>
+                                    <span class="txt">MIỄN PHÍ ĐỔI HÀNG</span>
+                               
+                            </div>
+                        </div>
+                        <div class="col l-2 m-3 c-6">
+                            <div class="itempayhome">
+                    
+                                    <span class="icon">
+                                        <img src="https://j-p.vn/vnt_upload/weblink/WEB_0604-05_1.svg" alt="">
+                                    </span>
+                                    <span class="txt">NHẬN HÀNG TẠI STORE</span>
+                    
+                            </div>
+                        </div>
+                        <div class="col l-2 m-3 c-6">
+                            <div class="itempayhome">
+                                    <span class="icon">
+                                        <img src="https://j-p.vn/vnt_upload/weblink/WEB_0604_aaaaaaa-06_1.svg" alt="">
+                                    </span>
+                                    <span class="txt">MIỄN PHÍ GIAO HÀNG</span>
+                            </div>
+                        </div>        
+                    </div>
+                    <div class="row">
+                        <div class="col l-5 m-6 c-6">
+                            <div class="itemprosm">
+                                    <img class="img-zoom" src="https://j-p.vn/vnt_upload/weblink/BANNER_PHU_1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col l-5 l-o-2 m-6 c-6">
+                            <div class="itemprosm">
+                                    <img class="img-zoom" src="https://j-p.vn/vnt_upload/weblink/COVER_GIUA_3006_.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-12">
+                            <div class="itemprmd vhthumbborder">
+                                <a href="">
+                                    <img src="https://j-p.vn/vnt_upload/weblink/WEB_Non.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-10 l-o-1 m-12">
+                            <div class="title">
+                                <h1>NHỮNG SẢN PHẨM ĐƯỢC YÊU THÍCH</h1>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col l-4 m-4 c-12">
+                            <div class="itemProduct">
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="https://j-p.vn/vnt_upload/product/hinhweb/1020600369191_1.JPG" alt="">
+                                    </a>
+                                </div>
+                                <div class="decs">
+                                    <div class="infopro">
+                                        <div class="namePro">
+                                            <h3>Áo thun kiểu ngắn tay</h3>
+                                        </div>
+                                        <div class="pricePro">
+                                            <p>289.000  đ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="itemProduct">
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="https://j-p.vn/vnt_upload/product/hinhweb/1070700369119_1.JPG" alt="">
+                                    </a>
+                                </div>
+                                <div class="decs">
+                                    <div class="infopro">
+                                        <div class="namePro">
+                                            <h3>Áo vest dài tay</h3>
+                                        </div>
+                                        <div class="pricePro">
+                                            <p>795.000  đ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="itemProduct">
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="https://j-p.vn/vnt_upload/product/hinhweb/1100400368744_1.JPG" alt="">
+                                    </a>
+                                </div>
+                                <div class="decs">
+                                    <div class="infopro">
+                                        <div class="namePro">
+                                            <h3>Đầm tay lở</h3>
+                                        </div>
+                                        <div class="pricePro">
+                                            <p>805.000  đ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="wrapper">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-3 m-8 c-12">
+                            <div class="boxBot">
+                                <div class="title-footer">
+                                    Liên hệ
+                                </div>
+                                <div class="content">
+                                    <div class="addressFoot">
+                                        <div class="be">
+                                            <span>38 Nguyễn Trãi, Phường 3, Quận 5, Tp Hồ Chí Minh</span>
+                                        </div>
+                                        <div class="be">
+                                            <span>(028) 6679 1099 - (028) 6652 5533</span>
+                                        </div>
+                                        <div class="be">
+                                            <span>salesonline@j-p.vn</span>
+                                        </div>
+                                        <div class="be">
+                                            <span>https://www.j-p.vn</span>
+                                        </div>
+                                    </div>
+                                    <div class="congthuong">
+                                        <img src="assets/image/congthuong_1.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-4 c-0">
+                            <div class="boxBot boxBot-pc">
+                                <div class="title-footer">
+                                    Thông tin
+                                </div>
+                                <div class="content">
+                                    <ul>
+                                        <li>Giới thiệu</li>
+                                        <li>Bảo mật thông tin</li>
+                                        <li>Tuyển dụng</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- app mobile -->
+                            <div class="boxBot box-mobile">
+                                <div class="title-footer">
+                                    Hotline
+                                </div>
+                                <div class="content">
+                                   <div class="hotline">
+                                    1800 6153
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12">
+                            <div class="boxBot">
+                                <div class="title-footer">
+                                    Phương thức thanh toán
+                                </div>
+                                <div class="content">
+                                   <div class="bankFoot">
+                                       <a href="">
+                                           <img src="https://j-p.vn/vnt_upload/weblink/bank.png" alt="">
+                                       </a>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6 c-12">
+                            <div class="boxBot">
+                                <div class="title-footer">
+                                    Đăng ký nhận tin
+                                </div>
+                                <div class="content">
+                                    <div class="receive_email">
+                                        <input type="text" name="" id="subscibeEmail" class="" placeholder="Nhập email của bạn">
+                                        <span>
+                                        <i class="far fa-envelope fas"></i>
+                                        </span>
+                                    </div>
+                                    <div class="social_network_icon">
+                                        <span class="icons">
+                                            <img src="assets/image/icon_face.png" alt="">
+                                        </span>
+                                        <span class="icons">
+                                            <img src="assets/image/icon_photo.png" alt="">
+                                        </span>
+                                        <span class="icons">
+                                            <img src="assets/image/icon_youtube.png" alt="">
+                                        </span>
+                                        <span class="icons">
+                                            <img src="assets/image/icon_zalo.png" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-10 l-o-1 m-12 c-12">
+                            <div class="footer-copyright">
+                                <div class="copyright">
+                                    <div class="copy">
+                                        Copyright © 2020 
+                                        <span class="cpy-write">Công Ty TNHH May TỨ ĐẠT</span>
+                                    </div>
+                                </div>
+                                <div class="gp">
+                                    Giấy chứng nhận Đăng ký kinh doanh số 0309987825 do Sở Kế Hoạch và Đầu Tư Tp Hồ Chí Minh cấp ngày 12/05/2010
+                                    <br>
+                                    Địa chỉ: 167 - 169 Võ Thành Trang, Phường 11, Quận Tân Bình, Tp Hồ Chí Minh
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- menu-mobile -->
+    <div class="vnt-menu-fixed">
+            <ul>
+                <li>
+                    <span class="img-menu">
+                        <i class="fas fa-phone vhrung"></i>
+                    </span>
+                    <span class="txt hotline">
+                        Hotline
+                    </span>
+                </li>
+                <li>
+                    <a href="" class="iconzl">
+                        <img src="assets/image/zalo1.png" alt="">
+                    </a>
+                </li>
+            </ul>
+    </div>
+    <script src="main.js">
+
+    </script>
+</body>
+</html>
